@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-uri: http://localhost:8187//oauth/token_key
+
+o-auth:
+  accessTokenUri: http://API-AUTH/oauth/token
+  clientId: developer
+  clientSecret: password
+  flag: false
+  userId: developer
